@@ -2,6 +2,7 @@ name: NitricLobby
 main: Asylx.NitricLobby.Main
 version: 1.0
 author: Asylx
+api-version: 1.13
 
 commands:
   spawn:
