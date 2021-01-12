@@ -1,0 +1,10 @@
+name: NitricLobby
+main: Asylx.NitricLobby.Main
+version: 1.0
+author: Asylx
+
+commands:
+  spawn:
+    description: Teleports user to spawn.
+  auth:
+    description: Authentication

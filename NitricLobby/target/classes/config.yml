@@ -1,0 +1,44 @@
+#
+#
+#             MESSAGES
+#
+#
+FirstJoins:
+  Total: 0
+
+format:
+  join: '&f&LJOIN &7: <prefix> <player>'
+  joindefault: '&f&LJOIN &7: &3<player>'
+  chat:
+    default: '&7<player>&7: <message>'
+    donor: '<prefix> <player>&7:&f <message>'
+  welcome: '&b<player>&7 has joined the lobby for the first time! &3[#<unique>]'
+
+#
+#
+#            PERMISSIONS
+#
+#
+
+Permission:
+  message: '&cInsufficient Permissions!'
+Lobby:
+  Joins: 'Lobby.join'
+  Build: 'Lobby.build'
+  Commands:
+    setspawn: 'Lobby.setspawn'
+
+#
+#
+#        MISC
+#
+#
+
+Auth:
+  Message:
+    Disabled: '&cYou need to verify yourself before you can talk!'
+
+Spawn:
+  X: -12
+  Y: 28
+  Z: 25
